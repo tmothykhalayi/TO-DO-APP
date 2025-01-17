@@ -1,0 +1,18 @@
+# To-Do App
+
+A simple To-Do application built to manage tasks efficiently. This app allows users to create, edit, mark as complete, and delete tasks.
+
+## Features
+
+- **Add a task:** Users can add a new task.
+- **Edit a task:** Users can update an existing task.
+- **Complete a task:** Users can mark a task as complete.
+- **Delete a task:** Users can remove a task from the list.
+- **Responsive design:** The app is fully responsive and works on mobile, tablet, and desktop devices.
+
+## Technologies Used
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **LocalStorage** (for storing tasks on the client side)
