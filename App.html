@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="master.css">
+  <title>Frontend Mentor | Todo app</title>
+</head>
+<body class="main-body">
+  <div class="container">
+    <header>
+      <h2>Todo</h2>
+      <img id="light" src="./images/icon-sun.svg" alt="">
+    </header>
+    <div class="task-input">
+      <label class="note" for="input"></label>
+      <input type="text" id="input">
+      <img class="delete-full" src="./images/icon-cross.svg" alt="">
+    </div>
+    <div class="task-content">
+      
+      <!-- <div class="task" draggable="true">
+        <div class="check">
+          <label>complete online js</label>
+          <img class="ok" src="./images/icon-check.svg" alt="">
+        </div>
+        <img class="delete" src="./images/icon-cross.svg" alt="">
+      </div>   -->
+    </div>
+    <div class="footer">
+      <span class="count">
+        <span class="number">0</span>
+        <span> items left</span>
+      </span>
+    
+      <span class="delete-all">clear completed</span>
+      <span class="status">
+        <span class="all active">all</span>
+        <span class="actived">active</span>
+        <span class="completed">completed</span>
+      </span>
+    
+    </div>
+  </div>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
